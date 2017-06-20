@@ -14,11 +14,13 @@ export PATH=$PATH:/usr/local/go/bin
 **When I run the setup and install commands, I get the following error: gx not found**
 
 Please install gx by running:
-
-go get -u github.com/whyrusleeping/gx (source: https://github.com/whyrusleeping/gx) 
-
+```
+go get -u github.com/whyrusleeping/gx
+```
 Also install gx-go: 
-
+```
 go get -u github.com/whyrusleeping/gx-go
-
+```
 The packages are installed in your $GOPATH/bin folder. If this folder is not on your path. you must add it to your path for the gx and gx-go commands to work. 
+
+source: https://github.com/whyrusleeping/gx
