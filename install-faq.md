@@ -1,9 +1,9 @@
-**I got the following error: ./setup.sh: line 9: go: command not found** 
+**I get the following error: ./setup.sh: line 9: go: command not found** 
 
 Please ensure you have go installed. If you have not installed go, please follow directions to install go at: 
 https://golang.org/doc/install
 
-**I already installed go and still got the above error**
+**I already installed go and still get the above error**
 
 Add go to your path environment. Instructions from the fo install guide:
 Add /usr/local/go/bin to the PATH environment variable. You can do this by adding this line to your /etc/profile 
