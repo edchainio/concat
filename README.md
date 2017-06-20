@@ -31,6 +31,8 @@ $ ./setup.sh && ./install.sh
 
 Warning: `setup.sh` is quite slow; among the dependencies is gorocksdb, which takes several minutes to compile.
 
+if you get errors, please refer to the [install faq](https://github.com/edchainio/concat/blob/master/install-faq.md)
+
 ### Running on Windows
 
 We haven't succeeded building on Windows yet, as rocksdb dependencies do not build correctly under mingw-w64; see [Issue 65](https://github.com/mediachain/concat/issues/65).
