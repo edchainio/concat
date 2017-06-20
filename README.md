@@ -1,4 +1,4 @@
-# Concat
+# Concat Daemon
 
 _concat<sup>[1](#footnote-1)</sup>: concatenating cat, by contrast to [copycat](https://github.com/atomix/copycat), used in a [previous prototype](https://github.com/mediachain/oldchain)_
 
