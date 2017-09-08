@@ -370,7 +370,7 @@ The full grammar for MCQL is defined as a PEG in [query.peg](mc/query/query.peg)
 ### REST API
 A REST API is provided for controlling the node. This is an administrative interface and should NOT be accessible to the wider network.
 
-* `GET /id` -- node info for the local node
+* `GET /id` -- node info for the local node -- JSON
 * `GET /id/{peerId}` -- node info for peer given by peerId
 * `GET /ping/{peerId}` -- ping! [DEPRECATED]
 * `POST /publish/{namespace}` -- publish a batch of statements to the specified namespace 
@@ -392,7 +392,7 @@ A REST API is provided for controlling the node. This is an administrative inter
 * `POST /data/compact` -- compact the datastore
 * `POST /data/sync` -- sync the datastore and flush the WAL
 * `GET /data/keys` -- dump all object keys in the datastore
-* `GET /status` -- get node network state
+* `GET /status` -- get node network state -- Plain Text
 * `POST /status/{state}` -- control network state (online/offline/public)
 * `GET /auth` -- retrieve all push authorization rules
 * `GET/POST /auth/{peerId}` -- retrieve/grant/revoke push authorization to a peer
