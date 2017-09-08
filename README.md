@@ -19,13 +19,13 @@ Concat requires Go 1.7 or later.
 
 First clone the repo in your `$GOPATH`:
 ```
-$ mkdir -p $GOPATH/src/github.com/mediachain
-$ git clone https://github.com/mediachain/concat.git $GOPATH/src/github.com/mediachain/concat
+$ mkdir -p $GOPATH/src/github.com/edchainio
+$ git clone https://github.com/edchainio/concat.git $GOPATH/src/github.com/edchainio/concat
 ```
 
 You can then run the setup and install scripts which will build dependencies and install the programs in `$GOPATH/bin`:
 ```
-$ cd $GOPATH/src/github.com/mediachain/concat
+$ cd $GOPATH/src/github.com/edchainio/concat
 $ ./setup.sh && ./install.sh 
 ```
 
