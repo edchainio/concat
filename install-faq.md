@@ -24,3 +24,20 @@ go get -u github.com/whyrusleeping/gx-go
 The packages are installed in your $GOPATH/bin folder. If this folder is not on your path. you must add it to your path for the gx and gx-go commands to work. 
 
 source: https://github.com/whyrusleeping/gx
+run:
+
+```
+nano ~/.profile
+
+```
+add:
+
+```
+export PATH=$PATH:/root/go/src/github.com/whyrusleeping/gx
+export PATH=$PATH:/root/go/src/github.com/whyrusleeping/gx-go
+
+```
+run command:
+```
+source ~/.profile
+```
